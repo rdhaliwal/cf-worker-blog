@@ -2,3 +2,4 @@ name = "rdhaliwal-dot-com"
 type = "webpack"
 webpack_config = "webpack.config.js"
 route = "*rdhaliwal.com/*"
+account_id = "" # Set in env variable

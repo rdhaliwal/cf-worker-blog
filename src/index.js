@@ -20,12 +20,20 @@ addEventListener('fetch', event => {
 async function generatePost(urlPath) {
   const url = `${baseGithubUrl}/${urlPath}.md`;
 
-  const rawMarkdown = await fetch(url)
-    .then(response => response.text())
-    .then(data => data);
-  const parsedMarkdown = marked(rawMarkdown);
+  const response = await fetch(url)
+    .then(response => {
+      if (response.ok) {
+        return response.text();
+      } else {
+        throw new Error(response.status);
+      }
+    })
+    .then(data => marked(data))
+    .then(data => new Response(template(data), { status: 200 }))
+    .catch(e => {
+      return new Response(template(e.message), { status: e.message })
+    });
 
-  const response = new Response(template(parsedMarkdown), { status: 200 })
   response.headers.set('Content-Type', 'text/html');
 
   return response;
