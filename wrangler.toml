@@ -1,3 +1,4 @@
 name = "rdhaliwal-dot-com"
-type = "javascript"
+type = "webpack"
+webpack_config = "webpack.config.js"
 route = "*rdhaliwal.com/*"

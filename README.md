@@ -8,6 +8,7 @@
 
 ### Develop
 
+- `npm install`
 - `wrangler dev`
 - `open http://localhost:8787`
 
