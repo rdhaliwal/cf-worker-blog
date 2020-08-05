@@ -1,6 +1,3 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
 name: Node.js CI
 
 on:
@@ -10,13 +7,12 @@ on:
     branches: [ master ]
 
 jobs:
+  # TODO(RD): Split this into two steps: build and test, and deploy.
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [14.x]
-
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -25,4 +21,13 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm run build
-#    - run: npm test
+    - name: deploy
+      uses: cloudflare/wrangler-action@1.2.0
+      with:
+        apiToken: ${{ secrets.CF_API_TOKEN }}
+        secrets: |
+            CF_ACCOUNT_ID
+            CF_ZONE_ID
+      env:
+        CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
