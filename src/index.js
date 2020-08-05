@@ -1,11 +1,13 @@
 import marked from 'marked';
 import template from './post-template.js';
 
+const baseGithubUrl = 'https://raw.githubusercontent.com/rdhaliwal/cf-worker-blog/master';
+
 addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   if (url.pathname === '' || url.pathname === '/') {
     // Render homepage
-    event.respondWith(generatePost('README'))
+    event.respondWith(generatePost('posts/home'))
   } else {
     event.respondWith(generatePost(url.pathname))
   }
@@ -16,7 +18,7 @@ addEventListener('fetch', event => {
  * @param {Request} request
  */
 async function generatePost(urlPath) {
-  const url = `https://raw.githubusercontent.com/rdhaliwal/fantastic-wikis-and-where-to-find-them/master/${urlPath}.md`;
+  const url = `${baseGithubUrl}/${urlPath}.md`;
 
   const rawMarkdown = await fetch(url)
     .then(response => response.text())
