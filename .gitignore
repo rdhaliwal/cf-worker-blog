@@ -2,3 +2,4 @@ dist/*
 worker/*
 node_modules/*
 credentials.mk
+.DS_Store

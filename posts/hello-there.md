@@ -1,6 +1,6 @@
 
 
-![Obi-Wan says hello](https://github.com/rdhaliwal/blog/raw/master/src/images/hello-there/obi-wan.gif)
+![Obi-Wan says hello](https://github.com/rdhaliwal/cf-worker-blog/raw/master/assets/hello-there/obi-wan.gif)
 
 Hello there!
 

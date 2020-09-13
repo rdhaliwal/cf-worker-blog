@@ -7,7 +7,7 @@ addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   if (url.pathname === '' || url.pathname === '/') {
     // Render homepage
-    event.respondWith(generatePost('posts/home'))
+    event.respondWith(generatePost('home'))
   } else {
     event.respondWith(generatePost(url.pathname))
   }
