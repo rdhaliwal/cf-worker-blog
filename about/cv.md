@@ -1,6 +1,6 @@
-<helmet>
+<!--<helmet>
   <title>Curriculum vitae // Randeep Dhaliwal</title>
-</helmet>
+</helmet>-->
 
 # Curriculum vitae
 

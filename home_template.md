@@ -1,6 +1,6 @@
-<helmet>
+<!--<helmet>
   <title>Randeep Dhaliwal</title>
-</helmet>
+</helmet>-->
 
 # Home
 

@@ -31,8 +31,8 @@ async function generatePost(pathname) {
     })
     .then(data => marked(data))
     .then(data => {
-      const START_TOKEN = '<helmet>';
-      const END_TOKEN = '</helmet>';
+      const START_TOKEN = '<!--<helmet>';
+      const END_TOKEN = '</helmet>-->';
       const metaStart = data.indexOf(START_TOKEN);
       const metaEnd = data.indexOf(END_TOKEN);
 
