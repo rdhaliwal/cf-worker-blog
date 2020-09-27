@@ -1,3 +1,7 @@
+<helmet>
+  <title>Randeep Dhaliwal</title>
+</helmet>
+
 # Home
 
 Hello. My name is Randeep. This is my website. It's still very much an experiment with Cloudflare workers, and is still under construction. You can check out the [code over on Github.](https://github.com/rdhaliwal/cf-worker-blog)
