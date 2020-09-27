@@ -12,10 +12,11 @@ const template = (head, body) => `
         /* System Fonts as used by GitHub: https://css-tricks.com/snippets/css/system-font-stack/ */
         body {
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+          line-height: 1.5em;
         }
 
         body {
-          max-width: 700px;
+          max-width: 1024px;
           margin: 0 auto;
           padding: 20px;
           overflow-wrap: break-word;
@@ -23,7 +24,16 @@ const template = (head, body) => `
           background: #FFFFFF;
         }
 
-        h1, h2, h3 { line-height:1.2 }
+        h1, h2, h3 {
+          margin-top: 0;
+          margin-bottom: 20px;
+          line-height:1.75em;
+        }
+
+        h2 { margin-bottom: 15px; }
+        h3 { margin-bottom: 10px; }
+
+        .Template-spacer { padding: 50px; }
 
         @media (prefers-color-scheme: dark){
           body {
@@ -39,6 +49,7 @@ const template = (head, body) => `
     </head>
     <body>
       ${body}
+      <div class="Template-spacer"></div>
     </body>
   </html>
 `;
