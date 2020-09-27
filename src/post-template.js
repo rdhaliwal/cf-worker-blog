@@ -1,4 +1,4 @@
-const template = text => `
+const template = (head, body) => `
   <!DOCTYPE html>
   <html>
     <head>
@@ -34,9 +34,11 @@ const template = text => `
           a:visited{ color:#ccf; }
         }
       </style>
+
+      ${head}
     </head>
     <body>
-      ${text}
+      ${body}
     </body>
   </html>
 `;

@@ -1,3 +1,7 @@
+<helmet>
+  <title>Curriculum vitae // Randeep Dhaliwal</title>
+</helmet>
+
 # Curriculum vitae
 
 ## Details
