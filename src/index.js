@@ -1,7 +1,8 @@
 import marked from 'marked';
 import template from './post-template.js';
 
-const baseGithubUrl = 'https://raw.githubusercontent.com/rdhaliwal/cf-worker-blog/master';
+const baseUrl = 'https://raw.githubusercontent.com/rdhaliwal/cf-worker-blog/master';
+// const baseUrl = 'https://rdhaliwal.ngrok.io';
 
 addEventListener('fetch', event => {
   const url = new URL(event.request.url);
@@ -17,8 +18,8 @@ addEventListener('fetch', event => {
  * Respond to the request
  * @param {Request} request
  */
-async function generatePost(urlPath) {
-  const url = `${baseGithubUrl}/${urlPath}.md`;
+async function generatePost(pathname) {
+  const url = `${baseUrl}/${pathname}.md`;
 
   const response = await fetch(url)
     .then(response => {
