@@ -25,9 +25,13 @@
 - Experience on both large and small scale commercial applications, from research and ideation all the way to release, then continuously delivering, iterating and refining solutions.
 - End to end understanding of a digital eCommerce sites, with experience in SEO, Adwords, A/B Testing, Analytics and User Testing.
 
+---
+
 ## Experience
 
-### Senior Software Engineer // Redbubble // Apr 2018 - Present
+### Redbubble
+
+**Senior Software Engineer // Apr 2018 - Present**
 
 - Front end (web) experience includes React, GraphQL, Apollo, SASS, PostCSS
 - Front end (native app) experience includes Swift, SwiftUI and UIKit
@@ -49,8 +53,11 @@
 - Championed adoption of React Hooks as a new standard for writing frontend code
 - Lead development on a huge rewrite of the Search experience. This involved working with our designer, writing the front end code, collaborating and working with 3-4 different teams on the backend and the design system and seeing this all rolled out. Over a 4 month period, I wore a variety of hats: Project Manager, Tech Lead and Developer.
 
+---
 
-### Software Engineer // YourGrocer // Sep 2015 - Dec 2017
+### YourGrocer
+
+**Software Engineer // Sep 2015 - Dec 2017**
 
 - Front end experience includes React, Flux, SASS and Angular 1
 - Back end experience includes Ruby, Rails, NodeJS.
@@ -71,7 +78,11 @@
 - Introduced adoption of tools like Webpack, Babel, Jest, Yarn and ES6
 - Presented at MelbCSS about Chrome Dev Tools and improving productivity
 
-### Front End Developer // Suncorp Group // Jan 2013 - Sep 2015
+---
+
+### Suncorp Group
+
+**Front End Developer // Jan 2013 - Sep 2015**
 
 - Co-created, designed, deployed and evolved a multi-brand living CSS style guide
 - Lead and managed the growth of the Suncorp StyleGuide from 1 brand used on 2 projects to having the framework support 8 brands on 10+ applications
@@ -85,21 +96,31 @@
 - Made tools like NPM, Grunt and Bower a part of the standard developer toolset
 - Presented the Suncorp StyleGuide and it's tooling to MelbCSS with tremendously positive feedback
 
-### Software Developer Intern // Odecee // Jul 2011 - Feb 2012
+---
+
+### Odecee
+
+**Software Developer Intern // Jul 2011 - Feb 2012**
 
 - Server and performance testing using JMeter and JProfiler
 - iPhone application development and documentation
 - Development of integral tools to time sheets, CRM and invoicing systems using VB.NET and Quickbooks API
 
+---
+
 ## Formal Qualifications
 
-### Bachelor of Software Engineering with Honours // Monash University // 2009-2012
+### Monash University
+
+**Bachelor of Software Engineering with Honours // 2009-2012**
 
 - High Distinction Average
 - Awarded a Monash University Information Technology Scholarship
 
 
-### VCE // Melbourne High School // 2005-2008
+### Melbourne High School
+
+**VCE // 2005-2008**
 
 - Achieved an ENTER of 95.35
 - Active participant of the Army Cadet Unit for all 4 years, attaining the rank of Cadet Under Officer

@@ -32,6 +32,10 @@ const template = (head, body) => `
 
         h2 { margin-bottom: 15px; }
         h3 { margin-bottom: 10px; }
+        hr {
+          margin: 20px 0;
+          border: 2px solid #444444;
+        }
 
         .Template-spacer { padding: 50px; }
 
@@ -42,6 +46,7 @@ const template = (head, body) => `
           }
           a:link{ color:#5bf; }
           a:visited{ color:#ccf; }
+          hr { border: 2px solid #FFFFFF; }
         }
       </style>
 
