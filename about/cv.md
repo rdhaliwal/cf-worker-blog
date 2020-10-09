@@ -7,7 +7,7 @@
 ## Details
 
 - Name: Randeep Dhaliwal
-- Email: [hello@randeep.dev](mailto:hello@randeep.dev)
+- Email: [contact@randeep.dev](mailto:contact@randeep.dev)
 - Github: [github.com/rdhaliwal](https://github.com/rdhaliwal)
 - Codepen: [codepen.io/rdhaliwal](https://codepen.io/rdhaliwal)
 
