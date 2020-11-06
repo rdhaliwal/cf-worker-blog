@@ -1,8 +1,8 @@
 import marked from 'marked';
 import template from './post-template.js';
 
-const baseUrl = 'https://raw.githubusercontent.com/rdhaliwal/cf-worker-blog/master';
-// const baseUrl = 'https://rdhaliwal.ngrok.io';
+// const baseUrl = 'https://raw.githubusercontent.com/rdhaliwal/cf-worker-blog/master';
+const baseUrl = 'https://rdhaliwal.ngrok.io';
 
 addEventListener('fetch', event => {
   const url = new URL(event.request.url);
